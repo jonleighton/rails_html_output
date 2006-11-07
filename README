@@ -1,0 +1,8 @@
+HTML Output
+-----------
+
+This miniscule Rails plugin simply modifies the ActionView::Helpers::TagHelper#tag
+method to output HTML-style tags instead of XHTML-style ones. This is needed if you
+want to use the Rails tag helpers and produce valid HTML.
+
+Author: Jonathan Leighton <turnip@turnipspatch.com>
