@@ -1,3 +1,7 @@
+h2. Status
+
+Almost certainly doesn't work with Rails 3, though I haven't tried. I will update it if the fancy takes me.
+
 h2. HTML Output
 
 This miniscule Rails plugin stops Rails outputting self-closing (XHTML-style) markup
