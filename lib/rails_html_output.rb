@@ -1,4 +1,4 @@
-require 'active_support'
+require 'action_view'
 
 module ActionView::Helpers::TagHelper
   # Forces the "open" param to always be true so it never self-closes

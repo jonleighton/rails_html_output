@@ -1,5 +1,7 @@
-%w(rubygems active_support action_controller action_view test/unit).each { |r| require r }
-require File.join(File.dirname(File.dirname(__FILE__)), 'lib', 'html_output')
+require File.join(File.dirname(File.dirname(__FILE__)), 'lib', 'rails_html_output')
+require 'test/unit'
+
+puts "Testing against Action Pack version #{ActionPack::VERSION::STRING}"
 
 class HtmlOutputTest < Test::Unit::TestCase
   include ActionView::Helpers::TagHelper

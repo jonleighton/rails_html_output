@@ -1,1 +1,1 @@
-require 'html_output'
+require 'rails_html_output'
